@@ -10,6 +10,9 @@ public class Circulo extends FormaGeometrica {
         public void calcularArea(){
             double calculo = raio * raio * pi;
             setArea(calculo);
+        }
+
+        public void desenhar(){
             System.out.println("Círculo:");
             System.out.println("  ***  ");
             System.out.println(" *   * ");

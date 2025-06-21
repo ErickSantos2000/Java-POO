@@ -9,21 +9,25 @@ Main {
 
         System.out.println();
         c.calcularArea();
+        c.desenhar();
         System.out.println(c.toString());
 
         System.out.println();
 
         q.calcularArea();
+        q.desenhar();
         System.out.println(q.toString());
 
         System.out.println();
 
         r.calcularArea();
+        r.desenhar();
         System.out.println(r.toString());
 
         System.out.println();
 
         t.calcularArea();
+        t.desenhar();
         System.out.println(t.toString());
         System.out.println();
     }

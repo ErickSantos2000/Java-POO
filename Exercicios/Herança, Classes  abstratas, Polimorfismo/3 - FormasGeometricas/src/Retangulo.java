@@ -10,11 +10,13 @@ public class Retangulo extends FormaGeometrica {
     public void calcularArea(){
         double calculo = comprimento * altura;
         setArea(calculo);
-        System.out.println("Quadrado:");
-        for (int i = 0; i < 5; i++) {
-            System.out.println("*****");
-        }
+    }
 
+    public void desenhar() {
+        System.out.println("Retângulo:");
+        for (int i = 0; i < 3; i++) {
+            System.out.println("*******");
+        }
     }
 
     public String toString() {

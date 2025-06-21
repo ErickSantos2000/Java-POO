@@ -8,11 +8,13 @@ public class Quadrado extends FormaGeometrica {
     public void calcularArea() {
         double calculo = lado * lado;
         setArea(calculo);
-        System.out.println("Retângulo:");
-        for (int i = 0; i < 3; i++) {
-            System.out.println("*******");
-        }
+    }
 
+    public void desenhar(){
+        System.out.println("Quadrado:");
+        for (int i = 0; i < 5; i++) {
+            System.out.println("*****");
+        }
     }
 
     public String toString() {

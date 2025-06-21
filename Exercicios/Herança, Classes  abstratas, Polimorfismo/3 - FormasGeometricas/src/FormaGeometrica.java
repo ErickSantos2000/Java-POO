@@ -6,6 +6,8 @@ public abstract class FormaGeometrica {
     }
 
     public abstract void calcularArea();
+
+    public abstract void desenhar();
     
     public double getArea() {
         return area;

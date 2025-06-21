@@ -10,11 +10,13 @@ public class Triangulo extends FormaGeometrica {
     public void calcularArea(){
         double calculo = (base * altura) / 2;
         setArea(calculo);
+    }
+
+    public void desenhar() {
         System.out.println("Triângulo:");
         for (int i = 1; i <= 5; i++) {
             System.out.println("*".repeat(i));
         }
-
     }
 
     public String toString() {
