@@ -19,6 +19,7 @@ DROP TABLE pessoa;
 DROP TABLE medico;
 DROP TABLE paciente;
 
-SELECT * FROM pessoa;
-SELECT * FROM medico;
-SELECT * FROM paciente;
+SELECT * FROM pessoa ORDER BY id ASC;
+SELECT * FROM medico ORDER BY id ASC;
+SELECT * FROM paciente ORDER BY id ASC;
+
