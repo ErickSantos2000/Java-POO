@@ -33,14 +33,14 @@ CREATE TABLE nota (
 );
 
 INSERT INTO usuario (nome, email_academico, senha)
-VALUES ('Jose de Souza Barros', 'jose@academico.com', '123');
+VALUES ('Professor NINJA', 'NINJA@academico.com', '123');
 
 INSERT INTO materia (nome) 
 VALUES ('Programação Orientada a Objetos');
 
 INSERT INTO professor (id_usuario, matricula, id_materia)
 VALUES (
-    (SELECT id FROM usuario WHERE email_academico = 'jose@academico.com'),
+    (SELECT id FROM usuario WHERE email_academico = 'NINJA@academico.com'),
     'MAT2025',
     (SELECT id FROM materia WHERE nome = 'Programação Orientada a Objetos')
 );
